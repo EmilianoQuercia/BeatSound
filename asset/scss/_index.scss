@@ -1,0 +1,64 @@
+
+/* estilos para el INDEX ----------------------------------------------------------*/
+
+.tituloPrincipal{
+    color: $colorTexto;
+    position: absolute;
+    top:300px;
+    left:60px;
+    z-index: 5;
+    font-weight: 700;
+}
+
+
+.imgCarrusel{
+    width: 100%;
+    max-height: 500px;
+}
+
+.texto25años{
+    padding: 20px;
+    text-align: center;
+    color: $colorPrincipal;
+    font-size: 30px;
+}
+
+.card {
+    border-radius: 30px;
+    box-shadow: 1px 1px 20px  rgba(255, 0, 0, 0.281);
+    align-items: center; 
+    background-color: transparent;
+    width: 20%;
+    margin:30px 0;
+    
+
+    .card__img{  
+        @include tamanio (30%,10px);  
+    }
+
+    .card__info{
+        padding: 30px;
+        text-align: center;
+        color: $colorTexto;
+    }
+
+}
+
+@media (max-width:992px){
+    .card{
+        width:40%
+    }
+}
+
+@media (max-width:576px){
+    .tituloPrincipal{
+        top:25%;
+        left:5%;
+    }
+    .card{
+        width: 80%;
+    }
+    
+}
+
+

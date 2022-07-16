@@ -4,89 +4,105 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="../asset/image/icono.ico">
+    <meta name="keywords" content="logistica escenarios recitales">
+    <meta name="description" content="Marcamos la diferencia por la calidad y el compromiso">
+    <link rel="shortcut icon" href="../asset/image/logoico.jpg" type="image/x-icon">
+    <!-- CSS only bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- CSS personal -->
     <link rel="stylesheet" href="../asset/css/style.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>NOSOTROS - BEATSOUND</title>
 </head>
-<body>
-    <header>
-        <div class="logo">
-            <a href="../index.html"><img data-aos="fade-right" data-aos-duration="3000"data-aos-delay="300" src="../asset/image/logo.png" alt="beat sound"></a>
+<body class="fondoNosotros">
+    <nav class="navbar navbar-expand-lg header">
+        <div class="container-fluid ">
+            <a class="navbar-brand col-5" href="../index.html"><img class="logo" data-aos="fade-right" data-aos-duration="3000"data-aos-delay="300"  src="../asset/image/logo.png" alt="beat sound"></a>
+            <button class="navbar-toggler colorH" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse desplegable text-center" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="./servicios.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Servicios</a>
+                        <ul class="dropdown-menu desplegable text-center" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="./servicios.html">Eventos Empresariales</a></li>
+                            <li><a class="dropdown-item" href="./servicios.html#sociales">Eventos Sociales</a></li>
+                            <li><a class="dropdown-item" href="./servicios.html#shows">Show en vivo</a></li>
+                            <li><a class="dropdown-item" href="./servicios.html#equipos">Alquiler de Equipos</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="./galeria.html">Galeria</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link activar" href="./nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contacto.html">Contactos</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <nav>
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a class="desplegar"  href="./servicios.html">Servicios <img src="../asset/image/flecha.png" alt="flecha"></a>
-                    <ul class="desplegableServicios">
-                        <li><a href="./servicios.html">Eventos Empresariales</a></li>
-                        <li><a href="./servicios.html#sociales">Eventos Sociales</a></li>
-                        <li><a  href="./servicios.html#shows">Show en Vivo</a></li>
-                        <li><a href="./servicios.html#equipos">Alquiler de Equipamiento</a></li>
-                    </ul>
-                </li>
-                <li><a href="./galeria.html">Galeria</a></li>
-                <li><a class="activo" href="./nosotros.html">Nosotros</a></li>
-                <li><a href="./contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
         <div class="redes__nav">
             <ul>
-                <li><a href="#"><img src="../asset/image/facebook.png" alt="logo_Facebook"></a></li>
-                <li><a href="#"><img src="../asset/image/instagram.png" alt="logo_Instagram"></a></li>
-                <li><a href="#"><img src="../asset/image/linkedin.png" alt="logo_Linkedin"></a></li>
+                <li><a href="https://www.facebook.com/" target="_blank"><img src="../asset/image/facebook.png" alt="logo_Facebook"></a></li>
+                <li><a href="https://www.instagram.com/" target="_blank"><img src="../asset/image/instagram.png" alt="logo_Instagram"></a></li>
+                <li><a href="https://www.linkedin.com/" target="_blank"><img src="../asset/image/linkedin.png" alt="logo_Linkedin"></a></li>
             </ul>
-        </div>
-    </header>
-    <main class="fondoNosotros">
-        <div class="contenedorNosotros">
-            <div class="infoNosotros">
-                <h1 class="tituloNosotros">Beat Sound family</h1>
+        </div>    
+    </nav>
+    <main class=" container-fluid">
+        <div class="contenedorNosotros row justify-content-center">
+            <div class="infoNosotros col-8 my-3 ">
+                <h1 class="tituloNosotros text-center">Beat Sound Family</h1>
                 <p class="parrafoNosotros">Contamos con un equipamiento ideal entre los cuales destacamos no solamente el talento humano, sino además la calidad y eficiencia de cada uno de nuestros equipos de primera línea con los cuales podemos ambientar todo tipo de espacios.
                 Beat Sound se especializa en atender cualquier tipo de evento, desde fiestas, desfiles de moda, congresos y presentaciones publicitarias, hasta exposiciones, entregas de premios, ferias y conferencias, por lo que nuestra experiencia es comprobable, además de muy variada.
                 </p>
             </div>
         </div>
-        <div class="contenedorCaras">
-            <div class="imgCaras">
+        <div class="contenedorCaras row justify-content-sm-evenly justify-content-star">
+            <div class="imgCaras col-8 col-md-5 col-lg-4">
                 <img src="../asset/image/gerente.png" alt="Martina Grifton">
                 <div class="carasInfo">
-                    <h3 class="nombresNosotros">Martina Grifton</h3>
+                    <h2 class="nombresNosotros">Martina Grifton</h2>
                     <p class="infoPersonas"> Gerente General</p>
                 </div>
             </div>
-            <div class="imgCaras">
+            <div class="imgCaras col-7 col-md-5 col-lg-4">
                 <img src="../asset/image/RRPP.png" alt="Lucas Thomson">
                 <div class="carasInfo">
-                    <h3 class="nombresNosotros">Lucas Thomson</h3>
+                    <h2 class="nombresNosotros">Lucas Thomson</h2>
                     <p class="infoPersonas"> Relaciones Publicas</p>
                 </div>
             </div>
-            <div class="imgCaras">
+            <div class="imgCaras col-7 col-md-5 col-lg-4">
                 <img src="../asset/image/ventas.png" alt="Valeria Pintos">
                 <div class="carasInfo">
-                    <h3 class="nombresNosotros">Valeria Pintos</h3>
+                    <h2 class="nombresNosotros">Valeria Pintos</h2>
                     <p class="infoPersonas"> Ventas</p>
                 </div>
             </div>
-            <div class="imgCaras">
+            <div class="imgCaras col-7 col-md-5 col-lg-4">
                 <img src="../asset/image/logistica.png" alt="David Lopez">
                 <div class="carasInfo">
-                    <h3 class="nombresNosotros">David Lopez</h3>
-                    <p class="infoPersonas"> Logistica</p>
+                    <h2 class="nombresNosotros">David Lopez</h2>
+                    <p class="infoPersonas"> Logística</p>
                 </div>
             </div>
-            <div class="imgCaras">
+            <div class="imgCaras col-7 col-md-5 col-lg-4">
                 <img src="../asset/image/Sonidista.png" alt="Fabian Gomez">
                 <div class="carasInfo">
-                    <h3 class="nombresNosotros">Fabian Gomez</h3>
-                    <p class="infoPersonas"> Sonido e Iluminacion</p>
+                    <h2 class="nombresNosotros">Fabian Gomez</h2>
+                    <p class="infoPersonas"> Sonido e Iluminación</p>
                 </div>
             </div>
         </div>
     </main>
-
-    <footer>
+    <footer class="footer">
         <div class="contactos__footer">
             <p>Llamanos </p>
             <p>222-3333-44556</p>
@@ -99,9 +115,9 @@
         <div class="redes__footer">
             <h3>Seguinos</h3>
             <ul>
-                <li><a href="#">Facebook<img src="../asset/image/facebook.png" alt="logo_Facebook"></a></li>
-                <li><a href="#">Instagram<img src="../asset/image/instagram.png" alt="logo_Instagram"></a></li>
-                <li><a href="#">Linkedin<img src="../asset/image/linkedin.png" alt="logo_Linkedin"></a></li>
+                <li><a href="https://www.facebook.com/" target="_blank">Facebook<img src="../asset/image/facebook.png" alt="logo Facebook"></a></li>
+                <li><a href="https://www.instagram.com/" target="_blank">Instagram<img src="../asset/image/instagram.png" alt="logo Instagram"></a></li>
+                <li><a href="https://www.linkedin.com/" target="_blank">Linkedin<img src="../asset/image/linkedin.png" alt="logo Linkedin"></a></li>
             </ul>
         </div>
     </footer>
@@ -109,5 +125,7 @@
     <script>
         AOS.init();
     </script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>

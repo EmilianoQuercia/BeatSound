@@ -1,0 +1,30 @@
+
+/* estilos para NOSOTROS --------------------------------------------------------------*/
+
+.fondoNosotros{
+    background-image: url(../image/nosotros.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.infoNosotros{
+    color: $colorTexto;
+    .tituloNosotros{
+        color: $colorPrincipal;
+    }
+}
+
+.imgCaras{
+    color: $colorTexto;
+    display: flex;
+    align-items: center;
+
+    img{
+        @include tamanio (150px, 10px 40px);
+    }
+    .carasInfo{
+        .nombresNosotros{
+            font-size: 26px;
+        }
+    }
+}
